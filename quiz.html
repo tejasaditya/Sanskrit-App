@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <link rel="shortcut icon" href="icon.ico" type="image/x-icon"/>
+    <title>Quiz</title>
+	<link href="iOS.css" rel="stylesheet" type="text/css"/>
+	<meta name="viewport" content="width=device-width"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+  </head>
+<body>
+
+  <script type="text/javascript">
+	var counter = 0;
+
+	function getAnswer(check)
+	{
+		if (check == "a")
+		{
+			counter = counter + 1;
+			alert ("Well done! You were correct. You have " + counter + " points.");
+		}
+
+		else
+		{
+			counter = counter - 1;
+		    alert ("No that's incorrect, please try again. You have " + counter + " points.");
+        }
+	}
+
+
+  </script>
+  
+  <h1>iSanskrit</h1>
+   <a href="vocabulary.html"><button>Back</button></a><br/><br/>
+  <img src="quiz.gif"/>
+  
+  <font size="5">
+  <form name = "myform">
+	Q.1: What do we call <b>family</b> in Sanskrit?<br/>
+	<input type="radio" name="q1" onclick="getAnswer('b')"/>Ostau
+	<input type="radio" name="q1" onclick="getAnswer('a')"/>Kutumbha
+	<input type="radio" name="q1" onclick="getAnswer('c')"/>Dantaha
+	<input type="radio" name="q1" onclick="getAnswer('d')"/>Prajvati
+	<br><br>
+
+	Q.2: What do we call <b>Ear</b> in Sanskrit?<br/>
+	<input type="radio" name="q2" onclick="getAnswer('d')"/>Vadanam
+	<input type="radio" name="q2" onclick="getAnswer('c')"/>Bhruhu
+	<input type="radio" name="q2" onclick="getAnswer('a')"/>Karnaha
+	<input type="radio" name="q2" onclick="getAnswer('b')"/>Nakhaha
+	<br><br>
+
+	Q.3: What does the word <b>Yava</b> mean in English?<br/>
+	<input type="radio" name="q3" onclick="getAnswer('b')"/>Nose
+	<input type="radio" name="q3" onclick="getAnswer('a')"/>Eye Lash
+	<input type="radio" name="q3" onclick="getAnswer('c')"/>Eye Brow
+	<input type="radio" name="q3" onclick="getAnswer('d')"/>Eye
+	<br><br>
+	
+	Q.4: In Sanskrit what do we call the number <b>Five hundred </b>?<br/>
+	<input type="radio" name="q4" onclick="getAnswer('a')"/>Pancasata
+	<input type="radio" name="q4" onclick="getAnswer('b')"/>Catursata
+	<input type="radio" name="q4" onclick="getAnswer('c')"/>Sahasrha
+	<input type="radio" name="q4" onclick="getAnswer('d')"/>Trisata
+	<br/><br/>
+	
+	Q.5: In Sanskrit what does the word<b> Plaited hair </b>mean?<br/>
+	<input type="radio" name="q5" onclick="getAnswer('d')"/>Kesaha
+	<input type="radio" name="q5" onclick="getAnswer('c')"/>Akshi
+	<input type="radio" name="q5" onclick="getAnswer('b')"/>Bhruhu
+	<input type="radio" name="q5" onclick="getAnswer('a')"/>Veni
+	<br/><br/>
+	
+	Q.6: In English what does the word<b> Uru </b>mean?<br/>
+	<input type="radio" name="q6" onclick="getAnswer('c')"/>Waist
+	<input type="radio" name="q6" onclick="getAnswer('d')"/>Leg
+	<input type="radio" name="q6" onclick="getAnswer('a')"/>Thigh
+	<input type="radio" name="q6" onclick="getAnswer('b')"/>Head
+	<br/><br/>
+	
+    Q.7: In Sanskrit what do we call the number<b> Ten Crore </b>?<br/>
+	<input type="radio" name="q7" onclick="getAnswer('d')"/>Divasta
+	<input type="radio" name="q7" onclick="getAnswer('c')"/>Pancasata
+	<input type="radio" name="q7" onclick="getAnswer('b')"/>Trisata
+	<input type="radio" name="q7" onclick="getAnswer('a')"/>Vrnda
+	<br/><br/>
+	
+	Q.8: In English what does the word<b> Vadanam </b>mean?<br/>
+	<input type="radio" name="q8" onclick="getAnswer('a')"/>Mouth
+	<input type="radio" name="q8" onclick="getAnswer('c')"/>Lips
+	<input type="radio" name="q8" onclick="getAnswer('b')"/>Tooth 
+	<input type="radio" name="q8" onclick="getAnswer('d')"/>Legs
+	<br/><br/>
+	
+    Q.9: In English what does the word<b> Naraha </b>mean?<br/>
+    <input type="radio" name="q9" onclick="getAnswer('b')"/>Nail
+	<input type="radio" name="q9" onclick="getAnswer('c')"/>Belly
+	<input type="radio" name="q9" onclick="getAnswer('a')"/>Vein  
+	<input type="radio" name="q9" onclick="getAnswer('d')"/>Finger
+	<br/><br/>
+	
+	Q.10: In Sanskrit what does the word<b> Color </b>mean?<br/>
+	<input type="radio" name="q10" onclick="getAnswer('b')"/>Shak
+	<input type="radio" name="q10" onclick="getAnswer('a')"/>Varn
+	<input type="radio" name="q10" onclick="getAnswer('b')"/>Peet
+	<input type="radio" name="q10" onclick="getAnswer('d')"/>Harit
+	<br/><br/>
+	
+	</form>
+	</font>
+	
+	*Negative marking included.
+ 
+</body>
+</html>
